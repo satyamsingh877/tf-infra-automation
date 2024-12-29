@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "******"
-    key = "******"
+    bucket = "my-terraform-state-bucket2424"
+    # key = "******"
     region = "us-east-2"
   }
 }
