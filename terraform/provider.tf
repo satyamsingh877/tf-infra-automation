@@ -8,10 +8,10 @@ terraform {
   backend "s3" {
     bucket = "******"
     key = "******"
-    region = "ap-south-1"
+    region = "us-east-2"
   }
 }
 
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-east-2"
 }
